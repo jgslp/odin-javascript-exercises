@@ -27,8 +27,8 @@ const factorial = function(x) {
   if (x === 0) {
     return 1;
   } else {
-    for (let i = x; x > 0; x--) {
-      product *= x;
+    for (let i = x; i > 0; i--) {
+      product *= i;
     }
   }
   return product;
