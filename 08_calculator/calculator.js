@@ -22,8 +22,16 @@ const power = function(x, y) {
   return product;
 };
 
-const factorial = function() {
-	
+const factorial = function(x) {
+	let product = 1;
+  if (x === 0) {
+    return 1;
+  } else {
+    for (let i = x; x > 0; x--) {
+      product *= x;
+    }
+  }
+  return product;
 };
 
 // Do not edit below this line
